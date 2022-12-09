@@ -53,3 +53,5 @@ int main(void)
         printf("Size of a float: %d byte(s)\n", sizeof(float));
         return (0);
 } (C program that prints the size of various types on the computer it is compiled and run on )
+
+7. gcc -S -masm=intel $CFILE (script that generates the assembly code (Intel syntax) of a C code and save it in an output file.)
